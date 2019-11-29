@@ -12,7 +12,8 @@ import subprocess
 
 subprocess.run('git init', shell=True)
 subprocess.run('git add .', shell=True)
-subprocess.run('git commit -m "Initial"', shell=True)
+commit=input("Enter commit")
+subprocess.run('git commit -m '+ '"' + commit + '"' +' ', shell=True)
 subprocess.run('git remote add origin git@github.com:adityabisoi/bot-test.git', shell=True)
 subprocess.run('git push -u origin master', shell=True)
 
