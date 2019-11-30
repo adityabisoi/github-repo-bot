@@ -1,5 +1,7 @@
 import subprocess
 
+with open(".gitignore", "a+") as my_file:
+    text=my_file.write("\nbot.py")
 key=input("Enter HTTP/SSH key")
 subprocess.run('git init', shell=True)
 subprocess.run('git add .', shell=True)
