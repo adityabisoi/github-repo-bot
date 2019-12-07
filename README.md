@@ -9,7 +9,7 @@ This is a bot which helps developers to release their projects to their GitHub r
 
 You do not need to type all the commands for commiting your files anymore. Just enter your commit name and the branch that you want to commit to, and the commit will be done automatically.
 
-**The bot also creates a .gitignore file (if you do not have one) and adds itself to it, to prevent itself from being uploaded. So,you do not need to worry about your repo being crowded :) **
+** The bot also creates a .gitignore file (if you do not have one) and adds itself to it, to prevent itself from being uploaded. So,you do not need to worry about your repo being crowded :) **
 
 ### Installing
 
